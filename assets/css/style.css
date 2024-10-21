@@ -1,4 +1,4 @@
-:root{
+/* :root{
     --first-color:#ffffff;
     --bg-alpha-color:rgba(0,0,0,0.8);
 }
@@ -15,4 +15,29 @@ body{
 }
 .bg-alpha-color{
     background-color: var(--bg-alpha-color);
+} */
+
+.navbar-brand img{
+    height: 4rem;
+    width: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.navbar-nav .nav-link.active{
+    color:#fff
+}
+
+.nav-pills .nav-link.active{
+    background-color: #000;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+   margin-right: 10px;
+}
+.navbar-expand-md .navbar-nav .nav-link {
+   padding-left: 10px;
 }
